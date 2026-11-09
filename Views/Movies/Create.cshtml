@@ -1,0 +1,21 @@
+@model MvcMovie.Models.Movie
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create</h1>
+<h4>Movie</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <partial name="_MovieForm" model="Model" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div><a asp-action="Index">Back to List</a></div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
