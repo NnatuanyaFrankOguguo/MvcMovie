@@ -10,6 +10,7 @@
 *.rsuser
 *.suo
 *.user
+*.db
 *.userosscache
 *.sln.docstates
 
