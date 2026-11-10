@@ -1,4 +1,4 @@
-# MCV Movies
+# Frank's Movies
 
 ## Run the application
 
